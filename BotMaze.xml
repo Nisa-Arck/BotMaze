@@ -1,3 +1,35 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="56" x="-794" y="-503"></block>
+  <block type="controls_repeat" id="155" inline="true" x="-582" y="-353">
+    <value name="TIMES">
+      <block type="math_number" id="168">
+        <field name="NUM">5</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_right" id="89">
+        <next>
+          <block type="robot_delay" id="91" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="104">
+                <field name="NUM">200</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_left" id="139">
+                <next>
+                  <block type="robot_delay" id="141" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="148">
+                        <field name="NUM">200</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
 </xml>
