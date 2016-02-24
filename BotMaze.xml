@@ -1,3 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="52" x="-641" y="-508"></block>
+  <block type="led_select" id="61" inline="true" x="-641" y="-508">
+    <field name="ACTION">OFF</field>
+    <next>
+      <block type="led_select" id="70" inline="true">
+        <field name="ACTION">OFF</field>
+      </block>
+    </next>
+  </block>
 </xml>
