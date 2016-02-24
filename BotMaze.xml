@@ -10,7 +10,7 @@
       <block type="controls_if" id="221" inline="false">
         <value name="IF0">
           <block type="sensor_object" id="231">
-            <field name="OBJECT">LEFTSIDE</field>
+            <field name="OBJECT">LEFTFRONT</field>
           </block>
         </value>
         <statement name="DO0">
